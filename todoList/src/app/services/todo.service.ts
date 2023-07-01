@@ -8,7 +8,6 @@ export class TodoService {
       this.todosRef = db.list('/todos');
     }
   
-    // Implement CRUD operations using AngularFireList methods
     getTodos(),
     addTodo(),
     updateTodo(),
