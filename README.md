@@ -1,1 +1,1 @@
-# myApps
+My hybrid mobile application
