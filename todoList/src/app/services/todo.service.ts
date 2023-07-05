@@ -9,24 +9,9 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class TodoService {
-<<<<<<< HEAD
   private todosRef: AngularFireList<any>;
-
   constructor(private db: AngularFireDatabase) {
     this.todosRef = db.list('/todos');
-=======
-    private todosRef: AngularFireList<any>;
-  
-    constructor(private db: AngularFireDatabase) {
-      this.todosRef = db.list('/todos');
-    }
-  
-    getTodos(),
-    addTodo(),
-    updateTodo(),
-    deleteTodo(),
-    (valueChanges(), push(), update(), remove());
->>>>>>> 2733e50fe60f2422e55280188bb885ef4fff6372
   }
 
   getTodos(): Observable<any[]> {
