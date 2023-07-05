@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "todo-acab3"
+  },
+  "targets": {
+    "todo-acab3": {
+      "hosting": {
+        "app": [
+          "todo-acab3"
+        ]
+      }
+    }
+  }
+}

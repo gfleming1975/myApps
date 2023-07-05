@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-//import { AngularFireDatabase } from '@angular/fire/database';
-//import { TodoService } from '../services/todo.service';
+
+
 
 @Component({
   selector: 'app-root',
